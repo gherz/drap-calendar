@@ -5,7 +5,7 @@
     display: inline;
 
     li{
-      background-color:#216583;
+      background-color:#65c0ba;
       border-radius: 2px;
     }
   }
@@ -29,5 +29,27 @@
   width: calc(100% + 2.5rem);
   margin-left: -1.25rem;
   background-color: #f76262;
+  color: #fff;
 }
 
+.search {
+  display: flex;
+  flex-direction: row;
+   #search {
+     border: hidden;
+
+     &:hover,
+     &:focus{
+       outline: none;
+     }
+   }
+
+  .search-icon, .expand-icon {
+    margin-top: .2em;
+  }
+
+  .expand-icon {
+    position: absolute;
+    right: 2em;
+  }
+}

@@ -3,9 +3,14 @@
   <div class="col-md-3">
     <div class="card shadow tasks mb-4">
       <div class="card-body">
-      <div class="search-options mt-5">
-
-      </div>
+        <div class="search">
+          <i class="fa fa-search search-icon mr-2" aria-hidden="true"></i>
+          <input type="text" id="search" placeholder="Search for a task">
+           <i class="fa fa-expand expand-icon" aria-hidden="true"></i>
+        </div>
+        <div class="search-options  p-2 mt-2">
+            Type:
+        </div>
         <ul>
           <li
             *ngFor="let event of externalEvents"
