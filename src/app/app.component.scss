@@ -1,0 +1,33 @@
+.tasks {
+  height: 700px;
+  ul {
+    list-style: none;
+    display: inline;
+
+    li{
+      background-color:#216583;
+      border-radius: 2px;
+    }
+  }
+}
+
+.chart-tasks {
+  height: 260px;
+}
+
+.calendar {
+  height: 700px;
+  overflow: scroll;
+}
+
+.new-event {
+  height: 260px;
+}
+
+.search-options {
+  height: 200px;
+  width: calc(100% + 2.5rem);
+  margin-left: -1.25rem;
+  background-color: #f76262;
+}
+

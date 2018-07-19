@@ -23,7 +23,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -123,5 +123,10 @@
       }
     }
   },
-  "defaultProject": "lfmx-gh-front"
+  "defaultProject": "lfmx-gh-front",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
