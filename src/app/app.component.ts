@@ -302,19 +302,4 @@ export class AppComponent implements AfterViewInit {
     this.viewDate = newStart;
     this.activeDayIsOpen = true;
   }
-
-  addEvent(): void {
-    this.events.push({
-      title: this.newEvent,
-      start: startOfDay(new Date()),
-      end: endOfDay(new Date()),
-      color: colors.red,
-      draggable: true,
-      resizable: {
-        beforeStart: true,
-        afterEnd: true
-      }
-    });
-    this.refresh.next();
-  }
 }
