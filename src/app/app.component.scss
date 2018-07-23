@@ -13,6 +13,11 @@
 
 .chart-tasks {
   height: 260px;
+  display: flex;
+  flex-direction: row;
+  #chart, #chart2, #chart3 {
+    width: 33%;
+  }
 }
 
 .calendar {
