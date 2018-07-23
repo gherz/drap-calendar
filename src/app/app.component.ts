@@ -124,7 +124,7 @@ export class AppComponent implements AfterViewInit {
     }, 2500);
 
     let chart3 = c3.generate({
-      bindto: '#chart3'
+      bindto: '#chart3',
       data: {
         columns: [
           ['done', 91.4]
